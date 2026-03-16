@@ -27,23 +27,31 @@ Most boilerplates ship with a fixed architecture (MVC, DDD, hexagonal, etc.). Th
 
 ## Quick Start
 
-```bash
-# 1. Clone and enter the project
-cd fastapi-cc-financial
+**1. Create a new repo from this template**
 
-# 2. First-time setup (deps, DB, migrations, smoke test)
+Click **"Use this template"** on GitHub, or via CLI:
+
+```bash
+gh repo create my-financial-app --template ridwanspace/fastapi-boilerplate-financial-brainstorm --clone
+cd my-financial-app
+```
+
+**2. Open in Claude Code and run the workflow**
+
+```bash
+# First-time setup (deps, DB, migrations, smoke test)
 /setup
 
-# 3. Brainstorm architecture with a senior architect
+# Brainstorm architecture with a senior architect
 /brainstorm
 
-# 4. Generate project structure from your decisions
+# Generate project structure from your decisions
 /scaffold
 
-# 5. Plan your first feature
+# Plan your first feature
 /plan <feature description>
 
-# 6. Build it
+# Build it
 /run-plan <plan-file> <task-id>
 ```
 
